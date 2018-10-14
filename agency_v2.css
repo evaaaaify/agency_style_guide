@@ -1,0 +1,205 @@
+/* Use the SG-Example.png located in the /Mockup folder 
+as a guide for what you will be building */
+
+/* 
+====================================
+Sets up styles for sidebar / navigation containers
+====================================
+*/
+
+.sidebar-logo {
+  width: 150px;
+}
+
+nav a {
+  font-family: 'lato', sans-serif;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  transition: color .25s;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.center p {
+  text-align: center;
+}
+
+/* 
+===========================
+Sets up styles for logos 
+============================
+*/
+
+.section-logo {
+  width: 150px;
+  height: 150%;
+}
+
+/* 
+===========================
+Sets up styles for typography 
+============================
+*/
+
+/* Sets up font-face for body copy */ 
+body {
+  font-family: Lato, sans-serif;
+  color: black;
+  line-height: 1.4em;
+}
+
+/* Sets up font-face for headers */ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IBM plex sans', sans-serif;
+  color: black;
+  line-height: 1em;
+}
+
+/* Sets up font-weights for headers */ 
+h1 {
+  font-weight: 700;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+.type-styles {
+  margin-top:40px;
+}
+
+.type-faces {
+  margin-top:40px;
+}
+
+.type-faces-01 {
+  font-family: 'IBM Plex Sans', sans-serif; 
+}
+
+.type-faces-02 {
+  font-family: "Lato", sans-serif;
+}
+
+/* 
+==========================
+Sets up styles for colors 
+===========================
+*/
+
+/* Makes a circle shape to serve a color box */ 
+.color-shape {
+  display: block;
+  text-align: center;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  margin: 0.5em;
+  border: .5px solid white;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+  padding: 0px 0px 0px 0px; 
+}
+
+.color-item {
+  display: inline-block;
+}
+.color-shape p {
+  margin-top: 35px;
+}
+/* Makes colors */ 
+
+.blue {
+  background: #224c7f;
+}
+
+.yellow {
+  background: #fff604;
+}
+
+.gray {
+  background: #cccccc;
+}
+
+.lightblue {
+  background: #1f93bf;
+}
+
+.lightyellow {
+  background: #f7ed98;
+}
+
+.black {
+  background: black;
+}
+
+.black p {
+  color: #ffffff
+}
+
+/* 
+===========================
+Sets up styles for button 
+============================
+*/
+.btn-outline-primary {
+  width: 106px;
+  height: 35px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  border: 1px solid; 
+  outline: #224c7f;
+}
+
+.btn-normal {
+  color: #224c7f;
+}
+
+.btn-hover {
+ 
+  text-decoration: underline;
+  font-weight: bold;
+  color: #224c7f;
+  box-shadow: 1px 1px;
+}
+
+.btn-pressed {
+  text-decoration: underline;
+  font-weight: bolder;
+  color: #224c7f;
+  box-shadow: 2px 2px;
+}
+
+
+.facebook {
+  width: 50%;
+  height: 50%;
+}
+
+.twitter {
+  width: 50%;
+  height: 50%;
+}
+
+.instagram {
+  width: 50%;
+  height: 50%;
+}
+
+
+/* Copyright Trilogy Education Services © 2018. All Rights Reserved */
